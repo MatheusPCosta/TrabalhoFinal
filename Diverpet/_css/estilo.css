@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Playfair Display';
+    src: url("../_fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 1;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;}
+
+body {
+    background: rgb(230, 229, 229);}
+   
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    word-wrap: break-all;}
+
+h1 {
+    font-size: xx-large;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;}
+
+header {
+    background: #808080;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-image-width: auto;}
+    
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 40px;
+    font-size: 25px;
+    list-style: none;}
+
+.menu li a {
+
+    padding: 10px;
+    color: white;}
+
+.menu a:hover {
+    background-color:rgba(50, 54, 58, 0.753);
+    color: rgb(255, 253, 253);
+    border-bottom:3px solid rgb(254, 252, 255);
+    border-radius: 10px;}
+
+img {
+    max-width: 100%;
+    display: inline;}
+
+.flex1 {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.459);
+    margin-top: 10px;
+}
+
+.flex1 > div {
+    flex-direction: row;
+    flex: 1 1 200px;
+}
+
+
+.divesq {float: left;width: 20%; margin-left: 190px;}
+.divcen {float: left; width: 30%;}
+.divDir {float: left;width: 20%; margin-right: 200px;}
+
+
+.flex2 {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.459)
+}
+
+.flex2> div {
+    flex-direction: row;
+    flex: 1 1 200px;
+}
+
+.divesq2 {float: left;width: 20%; margin-left: 190px;}
+.divcen2 {float: left; width: 30%;}
+.divdir2 {float: left;width: 20%; margin-right: 200px;}
+
+
+.footer {
+    background: gray;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 10px;
+    height: 200px;}
+
+.sociais {
+    display: flex;
+    padding: 5px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+    border-image-width: auto;
+}
+
+.whats {margin: 0px 10px 0px 0px}
+.face {margin: 0px 10px 0px 0px}
+.insta {margin: 0px 10px 0px 0px}
+.linke {margin: 0px 10px 0px 0px}
+.twite {margin: 0px 10px 0px 0px}
+
+#id {
+    margin-top: 10px;
+    background: #808080;
+    margin-left: 350px;
+}
+
+    #menufooter, ul {
+    text-align: left;
+    float: left;}
+
+    #menufooter, li {
+        padding: 3px;
+        list-style: none;
+        text-decoration: none;}
+
+    #menufooter, a {
+        color: white;}
+    
+    #menuFooter a:hover {
+        border-bottom:10px transparent;
+        padding: 5px;}
+
+    #atendimentoUl, ul{
+        text-align: left;
+        float: left;
+        color: white;
+        
+    }
+
+    #atendimentoUl, li {
+        color: white; 
+    }
+    
+    .atendimento {
+        margin-left: 240px;
+    }
+
+    .endereco {
+        margin-left: 500px;
+        margin-top: 30px;
+    }

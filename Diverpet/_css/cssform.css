@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Playfair Display';
+    src: url("../_fonts/PlayfairDisplay-VariableFont_wght.ttf")
+}
+
+body {
+  margin: 1;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', sans-serif;
+  background-color: rgba(128, 128, 128, 0.226);}
+
+header {
+  background: #808080;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-image-width: auto;}
+  
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 40px;
+  font-size: 25px;
+  list-style: none;}
+
+.menu li a {
+
+  padding: 10px;
+  color: white;
+  text-decoration: none;}
+
+.menu a:hover {
+    background-color:rgba(50, 54, 58, 0.753);
+    color: rgb(255, 253, 253);
+    border-bottom:3px solid rgb(254, 252, 255);
+    border-radius: 10px;}
+
+.link{
+    position: absolute;
+    background: #e1eaeb;
+    color: #444242;
+    left: 0px;
+    height: 20px;
+    width: 740px;
+    padding: 17px 30px 30px 586px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid #dbe5e8;
+  
+    -webkit-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+  }
+  .link a {
+    font-weight: bold;
+    background: #f7f8f1;
+    padding: 6px;
+    color: rgb(29, 162, 193);
+    margin-left: 10px;
+    border: 1px solid #cbd518;
+  
+  
+    -webkit-border-radius: 4px;
+    border-radius: 4px;  
+  
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+  }
+  .link a:hover {
+    color: #39bfd7;
+    background: #f7f7f7;
+    border: 1px solid #4ab3c6;
+  }
+  
+  #cadastro, 
+  #login{
+    position: absolute;
+    top: 210px;
+    width: 34%;   
+    padding: 38px 26% 60px 39%;
+    margin: 0 0 35px 0;
+    background: rgb(241, 238, 238);
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    
+    border-radius: 5px;
+    
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+  
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+  
+  #paracadastro:target ~ .content #cadastro,
+  #paralogin:target ~ .content #login{
+    z-index: 2;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+  }
+  #registro:target ~ .content #login,
+  #paralogin:target ~ .content #cadastro{
+    -webkit-animation-name: fadeOutLeft;
+    animation-name: fadeOutLeft;
+  }
+  
+  /*fadeInLeft*/
+  @-webkit-keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /*fadeOutLeft*/
+  @-webkit-keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+  }
+  
+  @keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+  }
+
+  .footer {
+    background: gray;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 500px;
+    height: 200px;}
+
+.sociais {
+    display: flex;
+    padding: 5px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+    border-image-width: auto;
+}
+
+.whats {margin: 0px 10px 0px 0px}
+.face {margin: 0px 10px 0px 0px}
+.insta {margin: 0px 10px 0px 0px}
+.linke {margin: 0px 10px 0px 0px}
+.twite {margin: 0px 10px 0px 0px}
+
+#id {
+    margin-top: 10px;
+    background: #808080;
+    margin-left: 350px;
+}
+
+    #menufooter, ul {
+    text-align: left;
+    float: left;
+  text-decoration: none;}
+
+    #menufooter, li {
+        padding: 3px;
+        list-style: none;
+        text-decoration: none;}
+
+    #menufooter, a {
+        color: white;
+        list-style: none;
+      text-decoration: none;}
+    
+    #menuFooter a:hover {
+        border-bottom:10px transparent;
+        padding: 5px;}
+
+    #atendimentoUl, ul{
+        text-align: left;
+        float: left;
+        color: white;
+        
+    }
+
+    #atendimentoUl, li {
+        color: white; 
+    }
+    
+    .atendimento {
+        margin-left: 240px;
+    }
+
+    .endereco {
+        margin-left: 500px;
+        margin-top: 30px;
+    }

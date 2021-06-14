@@ -1,0 +1,121 @@
+<?php
+include "conexao.php";
+?>
+
+
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Diverpet Localiza Pet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="_css/cssform.css" />
+  <a href="index.html"></a>
+  <script src="_js/cadastro.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img id="cabeca" src="_img/logo1.png" height= "190px" width="220px">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li><a href="produto.html">Produtos & Serviços</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>        
+            </ul>
+        </nav>
+    </header>
+    <div class="container" >
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+        
+        <div class="content">  
+            
+          <!--FORMULÁRIO DE CADASTRO-->
+        
+          <div id="cadastro">
+            <form method="POST" action="_php/salva_mensagem.php"> 
+              <h1>Cadastro</h1> 
+              
+              <p> 
+                <label for="nome_cad">Seu nome&nbsp;</label>
+                <input type="text" name="nome" required="required" placeholder="Luiz Augusto" />
+              </p>
+              
+              <p> 
+                <label for="email_cad">Seu e-mail</label>
+                <input id="email" name="email" required="required" placeholder="contato@diverpet.com"/> 
+              </p>
+
+              <p> 
+                <label for="cpf_cad">Seu CPF&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="cpf" name="cpf" required="required" placeholder="123.456.789-10"/> 
+              </p>
+              
+              <p> 
+                <label for="telefone"> Telefone &nbsp;</label>
+                <input type="tel" name="tel" required="required"  placeholder="DDD+99999-9999"/>
+              </p>
+              
+              <p> 
+                <input type="submit" value="Enviar">
+              </p>
+             
+              
+            </form>
+          </div>
+        </div>
+      </div> 
+
+      <footer class="footer">
+        <div id="menuFooter">
+                    <ul class="menufooter">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem somos</a></li>
+                    <li><a href="produto.html">Produtos & Serviços</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="faleconosco.html">Fale Conosco</a></li>        
+                </ul>     
+        </div>
+    
+        <div class="sociais">
+          <div class="whats">
+            <a href="https://api.whatsapp.com/send?phone=1199999-9999" target="_blank"><img src="_img/whats.png" width="50px" height="50px"></a>
+        </div> 
+        <div class="face">
+            <a href="http://www.facebook.com.br" target="_blank"><img src="_img/face.png" width="50px" height="50px"></a>
+        </div> 
+        <div class="insta">
+            <a href="http://www.instagram.com.br" target="_blank"><img src="_img/insta.png" width="50px" height="50px"></a>
+        </div> 
+        <div class="linke">
+            <a href="http://www.linkedin.com" target="_blank"><img src="_img/linke.png" width="50px" height="50px"></a>
+        </div> 
+        <div class="twite">
+            <a href="http://www.twitter.com" target="_blank"><img src="_img/twite.png" width="50px" height="50px"></a>
+          </div>
+          </div>
+        <div class="atendimento">
+            <ul id="atedimentoUl">
+                <li>Atendimento - 24hs</li> 
+                <li>4503.0000</li>
+                <li>São Paulo Capital</li>
+                <li>0800.515.1515</li>
+                <li>Demais Cidades</li>
+            </ul>
+        </div>
+     
+        <div class="endereco">
+            <ul id="enderecoFooter">
+                <li>Nosso Endereço</li> 
+                <li>Rua das Patas, nº Zero - Vila dos Dogs</li>
+                <li>São Paulo Capital - Cep - 01000-100</li>
+                
+            </ul>
+        </div>
+    </footer>
+  
+
+</body>
+</html>

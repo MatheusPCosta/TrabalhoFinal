@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diverpet Localiza Pet</title>
+    <link rel="stylesheet" href="_css/fale-conosco-style.css">
+    <script src="_js/atendimento.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <img id="cabeca" src="_img/logo1.png" height= "190px" width="220px">
+        <nav>
+            <ul class="menu">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li><a href="produto.html">Produtos & Serviços</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>        
+            </ul>
+        </nav>
+    </header>
+        
+    <form name="formteste" action="" method="POST">
+        <h1>Contato</h1>
+        
+        <p class="nome">
+            <input type="text" name="nome" placeholder="Informe seu nome" required="required">
+        </p>
+
+        <p class="email">
+            <input type="email" name="email" placeholder="Informe seu email" required="required">
+
+        </p>
+            <p class="assunto">
+                <input type="text" name="assunto" placeholder="Qual o produto" required="required">    
+
+            </p>
+
+            <p class="mensagem">
+                <textarea name="mensagem" placeholder="Deixe sua mensagem" ></textarea>
+
+            </p>
+
+            <p class="enviar">
+                <button onclick="msg()">Enviar</button>
+
+            </p>
+
+    </form>
+
+    <footer class="footer">
+        <div id="menuFooter">
+                    <ul class="menufooter">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem somos</a></li>
+                    <li><a href="produto.html">Produtos & Serviços</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="faleconosco.html">Fale Conosco</a></li>        
+                </ul>     
+        </div>
+    
+        <div class="sociais">
+            <div class="whats">
+                <a href="https://api.whatsapp.com/send?phone=1199999-9999" target="_blank"><img src="_img/whats.png" width="50px" height="50px"></a>
+            </div> 
+            <div class="face">
+                <a href="http://www.facebook.com.br" target="_blank"><img src="_img/face.png" width="50px" height="50px"></a>
+            </div> 
+            <div class="insta">
+                <a href="http://www.instagram.com.br" target="_blank"><img src="_img/insta.png" width="50px" height="50px"></a>
+            </div> 
+            <div class="linke">
+                <a href="http://www.linkedin.com" target="_blank"><img src="_img/linke.png" width="50px" height="50px"></a>
+            </div> 
+            <div class="twite">
+                <a href="http://www.twitter.com" target="_blank"><img src="_img/twite.png" width="50px" height="50px"></a>
+            </div>
+            </div>
+        <div class="atendimento">
+            <ul id="atedimentoUl">
+                <li>Atendimento - 24hs</li> 
+                <li>4503.0000</li>
+                <li>São Paulo Capital</li>
+                <li>0800.515.1515</li>
+                <li>Demais Cidades</li>
+            </ul>
+        </div>
+     
+        <div class="endereco">
+            <ul id="enderecoFooter">
+                <li>Nosso Endereço</li> 
+                <li>Rua das Patas, nº Zero - Vila dos Dogs</li>
+                <li>São Paulo Capital - Cep - 01000-100</li>
+                
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

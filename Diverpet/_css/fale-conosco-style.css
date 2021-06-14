@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Playfair Display';
+    src: url("../_fonts/PlayfairDisplay-VariableFont_wght.ttf")
+}
+
+body{ 
+    margin: 1;
+    padding: 0px;
+    font-size: 1.2rem;
+    background: rgb(230, 229, 229);
+    font-family: 'Playfair Display', sans-serif;}
+   
+
+header {
+    
+    list-style: none; 
+    font-family: 'Playfair Display', sans-serif;
+    background: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-image-width: auto;}
+
+form{
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(214, 214, 214);
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 50px 10px 10px 10px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+input, textarea{
+    width: 470px;
+    padding: 10px;
+}
+
+.enviar input{
+    
+    background: #006699;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+background: #078;
+}
+
+textarea{
+    width: 470px;
+    height: 170px;
+    line-height: 20px;
+}
+
+
+a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+
+.menu {
+    list-style-type: none;
+    display: flex;}
+
+.menu li {
+    margin-left: 40px;
+    font-size: 25px;}
+
+.menu li a {
+
+    padding: 10px;
+    color: white;}
+
+.menu a:hover {
+    background-color:rgba(50, 54, 58, 0.753);
+    color: rgb(255, 253, 253);
+    border-bottom:3px solid rgb(254, 252, 255);
+    border-radius: 10px;}
+
+    .footer {
+        background: gray;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+        margin-top: 10px;
+        height: 200px;}
+    
+    .sociais {
+        display: flex;
+        padding: 5px;
+        float: right;
+        margin: 10px 10px 10px 10px;
+        border-image-width: auto;
+    }
+    
+    .whats {margin: 0px 10px 0px 0px}
+    .face {margin: 0px 10px 0px 0px}
+    .insta {margin: 0px 10px 0px 0px}
+    .linke {margin: 0px 10px 0px 0px}
+    .twite {margin: 0px 10px 0px 0px}
+    
+    #id {
+        margin-top: 10px;
+        background: #808080;
+        margin-left: 350px;
+    }
+    
+        #menufooter, ul {
+        text-align: left;
+        float: left;}
+    
+        #menufooter, li {
+            padding: 3px;
+            list-style: none;
+            text-decoration: none;}
+    
+        #menufooter, a {
+            color: white;}
+        
+        #menuFooter a:hover {
+            border-bottom:10px transparent;
+            padding: 5px;}
+    
+        #atendimentoUl, ul{
+            text-align: left;
+            float: left;
+            color: white;
+            
+        }
+    
+        #atendimentoUl, li {
+            color: white; 
+        }
+        
+        .atendimento {
+            margin-left: 240px;
+        }
+    
+        .endereco {
+            margin-left: 500px;
+            margin-top: 30px;
+        }
